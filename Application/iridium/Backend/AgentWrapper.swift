@@ -81,6 +81,8 @@ class Agent {
                 "/usr/local/bin",
                 "/usr/bin",
                 "/bin",
+                "/var/jb/Applications",
+                "/var/jb/bin"
             ]
             var binaryLookupTable = [String: URL]()
             for path in binarySearchPath {
